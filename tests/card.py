@@ -1,7 +1,8 @@
 import enum
 
 class Suit(enum.Enum):
-    space = '♠'
+    spade = '♠'
+    
 
 
 class Rank(enum.Enum):
