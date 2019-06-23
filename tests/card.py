@@ -1,3 +1,13 @@
+import enum
+
+class Suit(enum.Enum):
+    space = '♠'
+
+
+class Rank(enum.Enum):
+    two = '2'
+
+
 class Card:
 
     def __init__(self, suit: str, rank: str):
