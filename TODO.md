@@ -15,7 +15,7 @@ TODO
 
 - [x] suitとrankを与えてcardを生成する
 
-- [ ] 生成したカードから文字列表記 (notation) を取得する
+- [x] Cardの文字列表記を取得する
 
 ## 後で
 - import問題を後で解決する

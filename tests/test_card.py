@@ -1,4 +1,7 @@
 from card import Card
 
-def test_card():
-    Card(suit='♠', rank='2')
+
+def test_get_notation():
+    card = Card('♠', 2)
+
+    assert '♠2' == str(card)
