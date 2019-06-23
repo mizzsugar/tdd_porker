@@ -14,3 +14,7 @@ def test_invalid_value_of_suit():
 def test_invalid_type_of_rank():
     with pytest.raises(TypeError):
         Card('♠', 2)
+
+def test_invalid_value_of_rank():
+    with pytest.raises(ValueError):
+        Card('♠', '14')
